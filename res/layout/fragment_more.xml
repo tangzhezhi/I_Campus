@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_my_account"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/my_account" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+                
+                <!-- 
+                <RelativeLayout
+                    android:id="@+id/layout_change_class"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/change_class" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+                 -->
+
+                <RelativeLayout
+                    android:id="@+id/layout_clear_cache"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/clear_cache" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+				<!-- 
+                <RelativeLayout
+                    android:id="@+id/layout_feedback"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/feedback" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+				 -->
+                <!-- 
+                <RelativeLayout
+                    android:id="@+id/layout_setting"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/system_setting" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+				 -->
+                <RelativeLayout
+                    android:id="@+id/layout_check_update"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/check_update" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_about"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/about_me" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_change_account"
+                    style="@style/SettingItem" >
+
+                    <TextView
+                        style="@style/SettingItemText"
+                        android:text="@string/change_account" />
+
+                    <ImageView style="@style/SettingItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

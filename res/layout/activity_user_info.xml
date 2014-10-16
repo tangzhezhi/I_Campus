@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="@dimen/normal_avatar_size"
+            android:layout_height="@dimen/normal_avatar_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar_default_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip" >
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:textColor="@color/normal_text"
+                android:textSize="@dimen/medium_text" />
+
+            <TextView
+                android:id="@+id/tv_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="1.0"
+                android:textColor="@color/tips_text"
+                android:textSize="@dimen/small_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_account"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_account"
+            style="@style/InfoItemTitleText"
+            android:visibility="gone"
+            android:text="@string/label_account" />
+
+        <TextView
+            android:id="@+id/tv_account"
+            style="@style/InfoItemText"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_account" />
+    </RelativeLayout>
+
+    <View style="@style/ListDivider" />
+
+    <RelativeLayout
+        android:id="@+id/layout_sex"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_sex"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_sex" />
+
+        <ImageView
+            android:id="@+id/iv_sex"
+            style="@style/InfoItemImage"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_sex"
+            android:src="@drawable/ic_sex_male" />
+    </RelativeLayout>
+
+    <View style="@style/ListDivider" />
+
+    <RelativeLayout
+        android:id="@+id/layout_phone"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_phone"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_phone" />
+
+        <ImageView
+            android:id="@+id/iv_mobile"
+            style="@style/InfoItemImage"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_phone"
+            android:src="@drawable/default_mobile_avatar" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/InfoItemText"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/iv_mobile" />
+    </RelativeLayout>
+
+    <View style="@style/ListDivider" />
+
+    <Button
+        android:id="@+id/btn_send_msg"
+        style="@style/FullButton"
+        android:layout_marginTop="30.0dip"
+        android:text="@string/send_msg" />
+
+</LinearLayout>

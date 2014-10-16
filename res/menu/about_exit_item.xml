@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:pushme="http://schemas.android.com/apk/res-auto">
+    
+    <item android:id="@+id/action_exit_item"
+        
+        android:icon="@drawable/exit"
+        android:title="@string/exit"
+        pushme:showAsAction="ifRoom|collapseActionView"
+     />
+    
+	
+</menu>

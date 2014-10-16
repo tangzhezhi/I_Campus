@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pushme="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_class_select_week"
+        android:title="@string/timetable_week"
+        pushme:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/action_class_select_day"
+        android:title="@string/timetable_day"
+        pushme:showAsAction="ifRoom|withText"/>
+</menu>

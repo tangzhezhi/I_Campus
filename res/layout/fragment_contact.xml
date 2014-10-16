@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/index_backgroud"
+    android:orientation="vertical" >
+	
+    <RadioGroup
+        android:id="@+id/group_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/subtitle_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <RadioButton
+            android:id="@+id/rb_teacher"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/group_tab_indicator"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="@string/teacher"
+            android:textColor="@color/group_tab_text_color"
+            android:textSize="@dimen/group_tab_item_text"
+            android:textStyle="bold" />
+<!-- 
+        <RadioButton
+            android:id="@+id/rb_student"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/group_tab_indicator"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="@string/student"
+            android:textColor="@color/group_tab_text_color"
+            android:textSize="@dimen/group_tab_item_text"
+            android:textStyle="bold" />
+ -->
+        <RadioButton
+            android:id="@+id/rb_parent"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/group_tab_indicator"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="@string/parent"
+            android:textColor="@color/group_tab_text_color"
+            android:textSize="@dimen/group_tab_item_text"
+            android:textStyle="bold" />
+        <!-- 
+        <RadioButton
+            android:id="@+id/rb_group"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/group_tab_indicator"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="@string/group"
+            android:textColor="@color/group_tab_text_color"
+            android:textSize="@dimen/group_tab_item_text"
+            android:textStyle="bold" />
+         -->
+    </RadioGroup>
+
+    <View style="@style/LineVertical" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

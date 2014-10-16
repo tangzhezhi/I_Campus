@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上校园</string>
+    <string name="please_choice">请选择</string>
+    <string name="tips">提示</string>
+    <string name="about">关于</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">数据加载中，请稍候&#8230;</string>
+    <string name="image_content">Image</string>
+    <string name="teacher">老师</string>
+    <string name="student">学生</string>
+    <string name="parent">家长</string>
+    <string name="group">群组</string>
+    <string name="title_index">首页</string>
+    <string name="title_message">消息</string>
+    <string name="title_contact">通讯录</string>
+    <string name="title_more">更多</string>
+    <string name="label_account">账号 </string>
+    <string name="label_current_class">当前班级 </string>
+    <string name="label_sutdent_no">学号</string>
+    <string name="userinfo">详细资料</string>
+    <string name="label_sex">性别 </string>
+    <string name="label_phone">手机 </string>
+    <string name="send_msg">发送消息</string>
+    <string name="login">登录</string>
+    <string name="send">发送</string>
+    <string name="search">搜索</string>
+    <string name="refresh">刷新</string>
+    <string name="login_hit_userid">输入登录账号</string>
+    <string name="login_hit_password">输入密码</string>
+    <string name="forget_password">如果忘记密码请点击这里</string>
+    <string name="resend">重新发送</string>
+    <string name="back">返回</string>
+    <string name="notice">通知公告</string>
+    <string name="homework">家庭作业</string>
+    <string name="daily">日常表现</string>
+    <string name="timetable">我的课表</string>
+    <string name="score">成绩信息</string>
+    <string name="groupsms">家校短信</string>
+    <string name="select_recv_user">请选择接收用户</string>
+    <string name="attendance">出勤记录</string>
+    <string name="consume">日常消费</string>
+    <string name="schoolbag">电子书包</string>
+    <string name="publish">发布于</string>
+    <string name="view_content">查看内容</string>
+    <string name="read_all">阅读全文</string>
+    <string name="reply">回复</string>
+    <string name="reply_total">回复数</string>
+    <string name="reply_notice">回复公告</string>
+    <string name="edit">编辑</string>
+    <string name="select_all">全选</string>
+    <string name="clear_all">全消</string>
+    <string name="refresh">更新</string>
+    <string name="network_exception">网络情况不给力！</string>
+    <string name="server_exception">服务器开了个小差，请稍后重试！</string>
+    <string name="parser_exception">解析服务器返回数据失败！</string>
+    <string name="network_offline">网络连接不可用，请启用您手机的网络访问功能！</string>
+    <string name="post_notice">发布通知</string>
+    <string name="notice_type">公告类型</string>
+    <string name="class_notice">班级公告</string>
+    <string name="class_name">班级名称</string>
+    <string name="school_notice">学校公告</string>
+    <string name="receive_type_notice">接收者类型</string>
+    <string name="teacher_notice">老师公告</string>
+    <string name="post_homework">发布家庭作业</string>
+    <string name="input_notice_title">请输入通知标题</string>
+    <string name="input_notice_content">请输入通知内容</string>
+    <string name="input_homework_content">请输入家庭作业内容</string>
+    <string name="input_message_content">请输入短信内容</string>
+    <string name="sumbit">提交</string>
+    <string name="my_account">我的账号</string>
+    <string name="change_class">切换班级</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="system_setting">系统设置</string>
+    <string name="check_update">检查更新</string>
+    <string name="about_me">关于我们</string>
+    <string name="user_select">选择用户</string>
+    <string name="change_account">切换账号</string>
+    <string name="exit">退出</string>
+    <string name="custom_text_hint">掌上校园系统通知</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+
+    <!-- homework -->
+    <string name="homework_del">删</string>
+
+    <!-- Timetable 课表 -->
+    <string name="timetable_week">周</string>
+    <string name="timetable_day">日</string>
+    <string name="timetable_month">月</string>
+    <string name="timetable_section">课次</string>
+    <string name="timetable_monday">周一</string>
+    <string name="timetable_tuesday">周二</string>
+    <string name="timetable_wednesday">周三</string>
+    <string name="timetable_thursday">周四</string>
+    <string name="timetable_friday">周五</string>
+    <string name="timetable_saturday">周六</string>
+    <string name="timetable_sunday">周日</string>
+
+    <!-- userselect -->
+    <string name="user_select_complete">完成</string>
+    <string name="user_select_cancel">取消</string>
+    <string name="user_select_title">所选对象</string>
+
+    <!-- account -->
+    <string name="my_account_sex">我的性别</string>
+
+    <!-- score -->
+    <string name="score_student_list">学生列表</string>
+
+    <!-- virtuousTeach -->
+    <string name="virtuous_teach">德育奖励</string>
+    <string name="virtuous_type">德育类别</string>
+    <string name="virtuous_add">奖励</string>
+    <string name="virtuous_coin">当前拥有道德币</string>
+    <string name="input_virtuous_add">请输入奖励的道德币</string>
+    <string name="input_virtuous_add_score">请输入道德奖励的分值</string>
+    <string name="input_virtuous_add_reason_content">请输入奖励理由</string>
+
+    <!-- about -->
+    <string name="label_about_target">目标</string>
+    <string name="label_about_target_content">教育沟通无障碍</string>
+    <string name="label_about_servicephone">服务电话</string>
+    <string name="label_about_servicephone_number">400-8731-558</string>
+    <string name="label_about_restrict">服务热线    400-8731-558</string>
+    <string name="label_about_copyright">本产品有湖南盛通信息技术有限公司研发</string>
+    <string name="label_about_copyright_code">© 2013-2020 盛通教育 湘CP备14009091号-4</string>
+    <string name="label_about_copyright_code2">All Rights Reserved</string>
+    <string name="label_feedback_title">反馈意见</string>
+
+    <!-- 消息模板 -->
+    <string name="msg_template">模板</string>
+    <string name="select_msg_template">请选择消息模板</string>
+    <string name="edit_msg">编辑消息</string>
+    <string name="add_msg_receiver">添加人员</string>
+
+    <!-- 闪光台 -->
+    <string name="good_deed_show">闪光台</string>
+    <string name="praise">赞</string>
+    <string name="essence">精华</string>
+    <string name="top">置顶</string>
+    <string name="del">删除</string>
+    <string name="save_upload">保存</string>
+    <string name="save_cancel">取消</string>
+    <string name="input_title">请输入标题</string>
+    <string name="input_content">请输入内容</string>
+    <string name="title_activity_bad_deed_show">BadDeedShowActivity</string>
+    <string name="action_settings">Settings</string>
+	
+    <!-- 曝光台 -->
+    <string name="bad_deed_show">曝光台</string>
+    
+    <!-- 爱心分享 -->
+    <string name="love_share">爱心分享</string>
+    <string name="commont">评论</string>
+    
+    
+    
+    <!-- 平安点到-->
+    <string name="safe_attendance_student">学生点到</string>
+</resources>

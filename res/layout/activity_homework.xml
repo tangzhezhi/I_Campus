@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:listViewAttr="http://schemas.android.com/apk/res/com.stinfo.pushme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_backgroud"
+    android:orientation="vertical" >
+
+    <com.stinfo.pushme.view.DropDownListView
+        android:id="@+id/lv_homework"
+        style="@style/NoSelectorList"
+        android:paddingBottom="0.0dip"
+        listViewAttr:isAutoLoadOnBottom="true"
+        listViewAttr:isDropDownStyle="true"
+        listViewAttr:isOnBottomStyle="true" />
+</LinearLayout>

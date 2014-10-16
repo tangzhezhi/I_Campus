@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View style="@style/LineVertical" />
+	<!-- 
+      <RelativeLayout
+        android:id="@+id/layout_msg_template_list"
+        style="@style/ListItem"
+        android:padding="0.0dip" >
+
+        <TextView
+            android:id="@+id/tv_msg_template_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/select_msg_template"
+            android:textColor="@color/tips_text"
+            android:textSize="@dimen/normal_text" />
+        <ImageView style="@style/ListItemArrow" />
+    </RelativeLayout>
+     -->
+     
+     <LinearLayout
+        android:id="@+id/layout_msg_recevier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_normal"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="@dimen/normal_padding" >
+        <TextView 
+              android:id="@+id/tv_msg_recevier"
+              android:visibility="gone"
+              android:layout_width="match_parent"
+              android:maxLines="3"
+              android:scrollbars="vertical"
+        	  android:layout_height="wrap_content"
+        	  android:textColor="@color/normal_text"
+             />
+    </LinearLayout>
+    <View style="@style/LineVertical" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_normal"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="@dimen/normal_padding" >
+        <EditText
+            android:id="@+id/et_send_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:scrollbars="vertical"
+            android:background="@drawable/edittext_bg_selector"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/edit_text" />
+
+        <Button
+            android:id="@+id/btn_send"
+            style="@style/GreenButton"
+            android:layout_marginLeft="@dimen/normal_padding"
+            android:layout_weight="1.0"
+            android:text="@string/send" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_normal"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="@dimen/small_padding">
+        <Button
+            android:id="@+id/btn_addTemplate"
+            style="@style/GreenButton"
+             android:layout_marginLeft="@dimen/small_padding"
+            android:layout_weight="1.0"
+            android:text="@string/msg_template" />
+        <Button
+            android:id="@+id/btn_addMsgReceiver"
+            style="@style/GreenButton"
+            android:layout_marginLeft="@dimen/small_padding"
+            android:layout_weight="1.0"
+            android:text="@string/add_msg_receiver" />
+         <TextView 
+              android:id="@+id/tv_null"
+              android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:layout_weight="4.0"
+        	  android:textColor="@color/normal_text"
+             />
+    </LinearLayout>
+
+</LinearLayout>

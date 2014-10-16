@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 九宫格每一格的布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent">
+	   <TextView
+        android:id="@+id/timetable_week_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:gravity="left"  
+        android:maxLines="4" 
+        android:textSize="18.0sp" />
+	   <!-- 
+	    android:background="@color/background_normal"
+    <TextView
+        android:id="@+id/timetable_week_item_section_text"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/background_normal"
+        android:gravity="left"  
+        android:layout_margin="1dp"
+        android:maxLines="1" 
+        android:layout_alignTop="@id/timetable_week_item_text"
+        android:layout_alignLeft="@id/timetable_week_item_text"
+        android:textSize="10.0sp" />
+
+         -->
+	</RelativeLayout>
+	
+	  <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/darkorange" />
+</LinearLayout>

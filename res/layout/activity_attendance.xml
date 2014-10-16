@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:listViewAttr="http://schemas.android.com/apk/res/com.stinfo.pushme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical" >
+	
+    <include
+        android:layout_weight="1.0"
+        layout="@layout/query_head" />
+    
+    <View 
+        android:background="#272727"
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        />
+    
+    <com.stinfo.pushme.view.DropDownListView
+        android:id="@+id/lv_attendance_list"
+        style="@style/NoSelectorList"
+        android:paddingBottom="0.0dip"
+        android:layout_weight="1.0"
+        listViewAttr:isAutoLoadOnBottom="false"
+        listViewAttr:isDropDownStyle="true"
+        listViewAttr:isOnBottomStyle="false" />
+    
+</LinearLayout>

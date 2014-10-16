@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_backgroud"
+    android:orientation="vertical" >
+	
+    
+       <LinearLayout
+        android:id="@+id/layout_about_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center"
+        >
+        <TextView
+            style="@style/InfoItemTitleText"
+            android:text="" />
+        <TextView
+            style="@style/InfoItemTitleText"
+            android:text="" />
+        <ImageView
+            android:id="@+id/iv_about_icon"
+            android:layout_gravity="center|center_vertical"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon" 
+            />
+        <!-- 
+        <View style="@style/ListDivider" />
+         -->
+        <TextView
+            android:id="@+id/label_about_target"
+            style="@style/InfoItemTitleText"
+            android:textSize="20.0dip"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:text="盛通信息" />
+    </LinearLayout>
+    
+   	
+    
+     <LinearLayout
+        android:id="@+id/layout_about_restrict"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+       >
+        <TextView
+            android:id="@+id/label_about_restrict"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	
+        	android:textColor="@color/gray"
+        	android:gravity="center"
+            android:text="@string/label_about_restrict" />
+        
+        <TextView
+            android:id="@+id/label_about_copyright"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textColor="@color/gray"
+        	android:gravity="center"
+            android:text="@string/label_about_copyright" />
+        
+        <TextView
+            style="@style/InfoItemTitleText"/>
+        
+        <TextView
+            android:id="@+id/label_about_copyright_code"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textColor="@color/gray"
+        	android:gravity="center"
+            android:text="@string/label_about_copyright_code" />
+        <TextView
+            android:id="@+id/label_about_copyright_code2"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textColor="@color/gray"
+        	android:gravity="center"
+            android:text="@string/label_about_copyright_code2" />
+        <TextView
+            style="@style/InfoItemTitleText"/>
+    </LinearLayout>
+</LinearLayout>

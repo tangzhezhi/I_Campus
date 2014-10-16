@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_homework_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/normal_padding" >
+
+        <ImageView
+            android:id="@+id/iv_subject"
+            android:layout_width="@dimen/subject_icon_width"
+            android:layout_height="@dimen/subject_icon_height"
+            android:scaleType="fitXY"
+            android:src="@drawable/work_yinyu" />
+
+        <LinearLayout
+            android:id="@+id/tv_homework_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip" >
+	
+		   <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normal_text"
+                android:textSize="@dimen/normal_text"
+                android:layout_weight="1"
+                android:maxLength="5"
+                android:ellipsize="end"
+                android:lines="1"
+                />
+            <TextView
+                android:id="@+id/tv_create_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tips_text"
+                android:textSize="@dimen/small_text" 
+                 android:layout_weight="1"
+                />
+		 
+           <Button
+            android:id="@+id/homework_del"
+            android:layout_width="@dimen/subject_icon_width"
+        	android:layout_height="@dimen/subject_icon_height"
+        	android:layout_weight="2"
+            android:text="@string/homework_del" 
+            android:background="@drawable/btn_red_normal"
+            android:visibility="gone"
+            />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <View style="@style/ListDivider" />
+
+</LinearLayout>

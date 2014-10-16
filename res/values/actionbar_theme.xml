@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Customactionbartheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_customactionbartheme</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Customactionbartheme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Customactionbartheme</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Customactionbartheme</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Customactionbartheme</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Customactionbartheme</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_customactionbartheme</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_customactionbartheme</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Customactionbartheme</item>
+        <item name="spinnerDropDownItemStyle">@style/MyCustomSpinnerDropDownItemStyle</item>
+        <item name="android:spinnerItemStyle">@style/MyCustomSpinnerItemStyle</item>
+        <item name="searchViewSearchIcon">@drawable/actionbar_search_icon</item> 
+        
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Customactionbartheme.Widget</item>
+        <item name="actionBarDivider">@drawable/tab_divider</item>
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="actionBarTabBarStyle">@style/MyActionBarTabBars</item>
+        <item name="actionMenuTextColor">@color/actionbar_title_text</item>
+        <item name="actionMenuTextAppearance">@style/MyActionMenuTextAppearance</item>
+        <item name="logo">@drawable/actionbar_icon</item>
+    </style>
+
+    <style name="MyActionMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_text</item>
+        <item name="android:textSize">@dimen/actionbar_title_text</item>
+    </style>
+
+    <style name="ActionBar.Solid.Customactionbartheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_customactionbartheme</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_customactionbartheme</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_customactionbartheme</item>
+        <item name="progressBarStyle">@style/ProgressBar.Customactionbartheme</item>
+    </style>
+
+    <!-- ActionBar tabs text -->
+    <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_tab_text</item>
+        <item name="android:textSize">@dimen/actionbar_tab_text</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Customactionbartheme" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_customactionbartheme</item>
+        <item name="progressBarStyle">@style/ProgressBar.Customactionbartheme</item>
+    </style>
+
+    <style name="PopupMenu.Customactionbartheme" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_customactionbartheme</item>
+    </style>
+
+    <style name="DropDownListView.Customactionbartheme" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_customactionbartheme</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Customactionbartheme" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_customactionbartheme</item>
+    </style>
+
+    <style name="DropDownNav.Customactionbartheme" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_customactionbartheme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_customactionbartheme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_customactionbartheme</item>
+    </style>
+
+    <style name="MyCustomSpinnerItemStyle" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MyCustomSpinnerItemTextStyle</item>
+    </style>
+
+    <style name="MyCustomSpinnerItemTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_text</item>
+        <item name="android:textSize">@dimen/actionbar_title_text</item>
+    </style>
+
+    <style name="MyCustomSpinnerDropDownItemStyle" parent="@style/Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/MyCustomSpinnerDropDownItemTextStyle</item>
+    </style>
+
+    <style name="MyCustomSpinnerDropDownItemTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/normal_text</item>
+        <item name="android:textSize">@dimen/actionbar_title_text</item>
+    </style>
+
+    <style name="ProgressBar.Customactionbartheme" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_customactionbartheme</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Customactionbartheme" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_customactionbartheme</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Customactionbartheme.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Customactionbartheme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Customactionbartheme</item>
+    </style>
+
+</resources>

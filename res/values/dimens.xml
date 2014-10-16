@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">10.0dip</dimen>
+    <dimen name="activity_vertical_margin">10.0dip</dimen>
+    <dimen name="actionbar_height">52.0dip</dimen>
+    <dimen name="actionbar_title_text">18.0sp</dimen>
+    <dimen name="actionbar_info_text">14.0sp</dimen>
+    <dimen name="actionbar_tab_text">16.0sp</dimen>
+    <dimen name="topbar_height">52.0dip</dimen>
+    <dimen name="topbar_text">16.0sp</dimen>
+    <dimen name="topbar_title_text">20.0sp</dimen>
+    <dimen name="topbar_info_text">14.0sp</dimen>
+    <dimen name="subtitle_text">18.0sp</dimen>
+    <dimen name="subtitle_height">40.0dip</dimen>
+    <dimen name="bottombar_text">16.0sp</dimen>
+    <dimen name="bottombar_height">50.0dip</dimen>
+    <dimen name="title_text">20.0sp</dimen>
+    <dimen name="shape_corners">4.0dip</dimen>
+    <dimen name="small_notice_text">11.0sp</dimen>
+    <dimen name="hint_text">14.0sp</dimen>
+    <dimen name="normal_button_text">14.0sp</dimen>
+    <dimen name="normal_button_height">32.0dip</dimen>
+    <dimen name="normal_button_width">100.0dip</dimen>
+    <dimen name="full_button_height">42.0dip</dimen>
+    <dimen name="group_tab_item_text">16.0sp</dimen>
+    <dimen name="tips_text">14.0sp</dimen>
+    <dimen name="content_text">16.0sp</dimen>
+    <dimen name="normal_padding">10.0dip</dimen>
+    <dimen name="small_padding">2.0dip</dimen>
+    <dimen name="subject_icon_width">50.0dip</dimen>
+    <dimen name="subject_icon_height">50.0dip</dimen>
+    <dimen name="highlight_text">16.0sp</dimen>
+    <dimen name="warning_text">14.0sp</dimen>
+    <dimen name="big_text">18.0sp</dimen>
+    <dimen name="medium_text">16.0sp</dimen>
+    <dimen name="normal_text">14.0sp</dimen>
+    <dimen name="small_text">12.0sp</dimen>
+    <dimen name="smallest_text">11.0sp</dimen>
+    <dimen name="edit_text">16.0sp</dimen>
+    <dimen name="list_item_text">16.0sp</dimen>
+    <dimen name="list_item_height">56.0dip</dimen>
+    <dimen name="setting_item_height">52.0dip</dimen>
+    <dimen name="list_fadding_edge">3.0dip</dimen>
+    <dimen name="frame_item_width">70.0dip</dimen>
+    <dimen name="frame_item_height">46.0dip</dimen>
+    <dimen name="frame_split_height">26.0dip</dimen>
+    <dimen name="index_banner_height">170.0dip</dimen>
+    <dimen name="big_avatar_size">60.0dip</dimen>
+    <dimen name="normal_avatar_size">40.0dip</dimen>
+   	<dimen name="notification_icon_size">40.0dip</dimen>
+    <dimen name="roster_item_height">56.0dip</dimen>
+    <dimen name="small_avatar_size">32.0dip</dimen>
+    
+    <dimen name="class_week_day_size">20.0dip</dimen>
+
+</resources>

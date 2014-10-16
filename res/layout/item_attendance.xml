@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_attendance_item_ll"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+     >
+        <RelativeLayout
+        android:id="@+id/layout_attendance_item_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_button_height"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="1"
+         >
+		<ImageView 
+		    android:id="@+id/iv_userpic"
+		    android:scaleType="fitXY"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_gravity="left"/>
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_toRightOf="@+id/iv_userpic"
+             android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/tips_text"
+            android:textSize="@dimen/small_text" />
+        
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_toRightOf="@+id/tv_username"
+             android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/tips_text"
+            android:textSize="@dimen/small_text" />
+    </RelativeLayout>
+    
+    
+     <RelativeLayout
+        android:id="@+id/layout_attendance_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_weight="1"
+         >
+		<ImageView 
+		    android:id="@+id/iv_timeline"
+		    android:layout_weight="1"
+		    android:background="@color/background_normal"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+		    android:layout_gravity="left"/>
+    </RelativeLayout>    
+    
+</LinearLayout>

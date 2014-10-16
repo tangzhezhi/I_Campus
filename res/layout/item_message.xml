@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_message_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/normal_padding" >
+
+        <ImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="@dimen/normal_avatar_size"
+            android:layout_height="@dimen/normal_avatar_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar_default_normal" />
+
+        <LinearLayout
+            android:id="@+id/layout_message_item_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="4.0"
+            android:paddingLeft="10.0dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/normal_text"
+                    android:textSize="@dimen/medium_text" />
+
+                <TextView
+                    android:id="@+id/tv_send_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/tips_text"
+                    android:textSize="@dimen/small_text" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/tips_text"
+                android:textSize="@dimen/normal_text" />
+        </LinearLayout>
+        
+         <Button
+            android:id="@+id/message_del"
+            android:layout_width="60dp"
+        	android:layout_height="@dimen/subject_icon_height"
+            android:text="@string/homework_del" 
+            android:background="@drawable/btn_red_normal"
+            />
+        
+    </LinearLayout>
+
+    <View style="@style/ListDivider" />
+
+</LinearLayout>

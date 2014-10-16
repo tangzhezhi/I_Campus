@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
+
+    <TextView
+        android:id="@+id/tv_notice_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/class_notice"
+        android:textColor="@color/normal_text"
+        android:textSize="@dimen/big_text" />
+
+    <Spinner 
+           android:id="@+id/sp_class_notice_receive_type"   
+           android:layout_width="fill_parent"  
+           android:layout_margin="5.0dip"
+           android:background="@color/background_dark"
+           android:layout_height="wrap_content"/>  
+
+    <View style="@style/ListDivider" />
+
+    <TextView
+        android:id="@+id/tv_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/class_name"
+        android:textColor="@color/normal_text"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/class_name"
+        android:textColor="@color/tips_text"
+        android:textSize="@dimen/normal_text" />
+
+    <View style="@style/ListDivider" />
+
+    <EditText
+        android:id="@+id/et_notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/edittext_bg_selector"
+        android:ems="10"
+        android:hint="@string/input_notice_title"
+        android:maxLines="2"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text" />
+
+    <EditText
+        android:id="@+id/et_notice_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40.0dip"
+        android:background="@drawable/edittext_bg_selector"
+        android:ems="10"
+        android:hint="@string/input_notice_content"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:textSize="@dimen/edit_text" />
+
+</LinearLayout>

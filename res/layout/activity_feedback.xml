@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical" >
+	
+       <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TipsText"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="@string/label_feedback_title" />
+            </LinearLayout>
+
+            <View style="@style/ListDivider" />
+			
+            
+         <EditText
+            android:id="@+id/et_feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_weight="3.0"
+            android:background="@drawable/edittext_bg_selector"
+            android:layout_margin="5dp"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/edit_text" />
+         
+           <View style="@style/ListDivider" />
+           
+          <Button
+            android:id="@+id/btn_feedback_send"
+            style="@style/GreenButton"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/normal_padding"
+            android:layout_weight="1.0"
+            android:text="@string/send" />
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

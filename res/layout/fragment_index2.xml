@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_index_banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/index_banner_height"
+                android:scaleType="fitXY"
+                android:src="@drawable/index_banner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_notice"
+                    style="@style/ListItem" >
+
+                    <ImageView
+                        android:id="@+id/iv_notice"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_notice" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_notice"
+                        android:text="@string/notice" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_homework"
+                    style="@style/ListItem" >
+
+                    <ImageView
+                        android:id="@+id/iv_homework"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_homework" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_homework"
+                        android:text="@string/homework" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_daily"
+                    style="@style/ListItem" >
+
+                    <ImageView
+                        android:id="@+id/iv_daily"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_dialy" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_daily"
+                        android:text="@string/daily" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View style="@style/ListDivider" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_timetable"
+                    style="@style/ListItem"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_timetable"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_timetable" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_timetable"
+                        android:text="@string/timetable" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View
+                    style="@style/ListDivider"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_score"
+                    style="@style/ListItem"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_score"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_score" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_score"
+                        android:text="@string/score" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View
+                    style="@style/ListDivider"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_attendance"
+                    style="@style/ListItem"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_attendance"
+                        style="@style/ListItemIcon"
+                        android:src="@drawable/index_attendance" />
+
+                    <TextView
+                        style="@style/ListItemText"
+                        android:layout_toRightOf="@id/iv_attendance"
+                        android:text="@string/attendance" />
+
+                    <ImageView style="@style/ListItemArrow" />
+                </RelativeLayout>
+
+                <View
+                    style="@style/ListDivider"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

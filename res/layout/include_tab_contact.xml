@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottombar_contact"
+    style="@style/TabItemLayout" >
+
+    <TextView
+        android:id="@+id/tab_item_contact"
+        style="@style/Style.TabItem.Label"
+        android:drawableTop="@drawable/ic_tab_contact"
+        android:gravity="center_horizontal"
+        android:text="@string/title_contact" />
+    
+</LinearLayout>

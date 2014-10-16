@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_padding" >
+
+
+    <LinearLayout
+        android:id="@+id/layout_msg_template_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:orientation="horizontal"
+        android:padding="@dimen/normal_padding" >
+
+		<CheckBox
+            android:id="@+id/cb_select"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_selector"
+            android:clickable="false"
+        	android:focusable="false"
+        	android:focusableInTouchMode="false" 
+             />
+
+        <TextView
+            android:id="@+id/tv_msg_template_content"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dip"
+            android:textColor="@color/normal_text"
+            android:textSize="@dimen/normal_text" />
+    </LinearLayout>
+	 <View style="@style/ListDivider" />
+</LinearLayout>

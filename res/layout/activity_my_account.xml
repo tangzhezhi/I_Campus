@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_backgroud"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:id="@+id/layout_myaccount_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_myaccount_avatar"
+            android:layout_width="@dimen/normal_avatar_size"
+            android:layout_height="@dimen/normal_avatar_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar_default_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="30.0dip" >
+
+            <TextView
+                android:id="@+id/tv_myaccount_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normal_text"
+                android:textSize="@dimen/medium_text" />
+		<!-- 
+            <TextView
+                android:id="@+id/tv_myaccount_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="1.0"
+                android:textColor="@color/tips_text"
+                android:textSize="@dimen/small_text" />
+                 -->
+        </LinearLayout>
+        
+        <View style="@style/ListDivider" />
+    </LinearLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/layout_current_classname"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_current_classname"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_current_class" />
+
+        <TextView
+            android:id="@+id/tv_current_classname"
+            style="@style/InfoItemText"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_current_classname" />
+    </RelativeLayout>
+    
+    
+    
+   	<RelativeLayout
+        android:id="@+id/layout_myaccount"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_myaccount"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_account" />
+
+        <TextView
+            android:id="@+id/tv_myaccount"
+            style="@style/InfoItemText"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_myaccount" />
+    </RelativeLayout>
+
+    <View style="@style/ListDivider" />
+    
+    <RelativeLayout
+        android:id="@+id/layout_myaccount_sex"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_myaccount_sex"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_sex" />
+
+        <ImageView
+            android:id="@+id/iv_myaccount_sex"
+            style="@style/InfoItemImage"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_myaccount_sex"
+            android:src="@drawable/ic_sex_male" />
+    </RelativeLayout>
+
+    <View style="@style/ListDivider" />
+    
+    
+    <RelativeLayout
+        android:id="@+id/layout_myaccount_phone"
+        style="@style/InfoItem" >
+
+        <TextView
+            android:id="@+id/label_myaccount_phone"
+            style="@style/InfoItemTitleText"
+            android:text="@string/label_phone" />
+
+        <ImageView
+            android:id="@+id/iv_myaccount_mobile"
+            style="@style/InfoItemImage"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/label_myaccount_phone"
+            android:src="@drawable/default_mobile_avatar" />
+
+        <TextView
+            android:id="@+id/tv_myaccount_phone"
+            style="@style/InfoItemText"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/iv_myaccount_mobile" />
+    </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
+
+    <TextView
+        android:id="@+id/tv_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/class_name"
+        android:textColor="@color/normal_text"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/class_name"
+        android:textColor="@color/tips_text"
+        android:textSize="@dimen/normal_text" />
+
+    <View style="@style/ListDivider" />
+
+    <Spinner
+        android:id="@+id/sp_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip" >
+    </Spinner>
+
+    <View style="@style/ListDivider" />
+
+    <EditText
+        android:id="@+id/et_homework_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/edittext_bg_selector"
+        android:ems="10"
+        android:hint="@string/input_homework_content"
+        android:minLines="10"
+        android:textSize="@dimen/edit_text" />
+
+</LinearLayout>

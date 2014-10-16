@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="feature_list">
+        <item>通知公告</item>
+        <item>家庭作业</item>
+        <item>日常表现</item>
+        <item>我的课表</item>
+        <item>成绩信息</item>
+        <item>出勤记录</item>
+        <item>消费查询</item>
+        <item>电子书包</item>
+    </string-array>
+    
+    <string-array name="ack_list">
+        <item>0:处理成功</item>
+        <item>100:无对应的数据记录</item>
+        <item>101:服务器处理失败</item>
+        <item>102:数据库操作失败</item>
+        <item>103:用户未登录</item>
+        <item>104:用户已注册</item>
+        <item>201:该用户不存在</item>
+        <item>202:账户密码错</item>
+        <item>203:数据不完整</item>
+        <item>204:用户已绑定</item>
+        <item>300:主键冲突（该记录已存在）</item>
+        <item>301:外键约束</item>
+        <item>400:数据未更新</item>
+        <item>500:该用户已在其他设备上登录</item>
+        <item>700:用户登录名称为空</item>
+        <item>701:用户密码为空</item>
+    </string-array>
+    
+    <string-array name="subject_list">
+        <item>全部</item>
+        <item>语文</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>历史</item>
+        <item>地理</item>
+        <item>政治</item>
+        <item>生物</item>
+        <item>化学</item>
+        <item>物理</item>
+    </string-array>
+    
+    
+    <string-array name="months_weeks_list">
+        <item>本周</item>
+        <item>第1周</item>
+        <item>第2周</item>
+        <item>第3周</item>
+        <item>第4周</item>
+        <item>第5周</item>
+    </string-array>
+	
+    <string-array name="virtuous_type_list">  
+        <item>劳动小能手</item>  
+        <item>学习小明星</item>  
+    </string-array>  
+    
+</resources>

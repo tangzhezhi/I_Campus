@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_normal" >
+
+    <LinearLayout
+        android:id="@+id/tabwidget"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottombar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottombar_normal"
+        android:orientation="horizontal" >
+		<!-- 引入四个Tab的布局 -->
+        <include layout="@layout/include_tab_index" />
+
+        <include layout="@layout/include_tab_message" />
+
+        <include layout="@layout/include_tab_contact" />
+
+        <include layout="@layout/include_tab_more" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tabwidget" />
+
+</RelativeLayout>

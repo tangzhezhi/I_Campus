@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="@drawable/index_backgroud"
+    android:orientation="vertical" 
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="22.0dip" 
+        android:background="#ff8091a8"
+        android:orientation="horizontal"  >
+    <TextView
+        android:id="@+id/timetable_section"
+        android:layout_width="0dip"
+         android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/timetable_section"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+        <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" /> 
+	<TextView
+        android:id="@+id/timetable_monday"
+        android:layout_width="0dip"
+         android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/timetable_monday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+         android:id="@+id/timetable_tuesday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_tuesday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/timetable_wednesday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_wednesday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/timetable_thursday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_thursday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/timetable_friday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_friday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/timetable_saturday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_saturday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+    <View
+        android:layout_width="2dip"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/timetable_sunday"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/timetable_sunday"
+        android:textColor="#ffffffff"
+        android:textSize="14.0dip"
+        android:clickable="true" />
+    </LinearLayout>
+    
+            <!-- 
+        android:listSelector="@color/red"  
+         android:background="@color/gray"
+         -->
+         
+    <GridView  
+        android:id="@+id/timetable_week_gridview"  
+        android:layout_width="fill_parent"  
+        android:layout_height="match_parent"  
+        android:gravity="center"  
+        android:clickable="true"  
+        android:clipChildren="true"  
+        android:horizontalSpacing="0.0dip"  
+        android:verticalSpacing="1dip"
+        android:listSelector="@drawable/grid_selector"  
+        android:numColumns="8"  
+        android:stretchMode="columnWidth"
+        android:cacheColorHint="@android:color/transparent"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none"     
+        />  
+</LinearLayout>
